@@ -1,0 +1,17 @@
+/*Changes the background color to coding temple baby blue*/
+*{
+    background-color:rgb(84, 149, 255);
+}
+
+/*Border box*/
+*{
+    border-width: 0px;
+}
+
+/*Container class*/
+.container-class{
+    width: 960px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0 auto;
+}
