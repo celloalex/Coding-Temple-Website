@@ -16,15 +16,15 @@
     margin: 0 auto;
 }
 
-/*creates dark bar near top of site*/
-header{
-    background: rgb(102,102,99);
-}
-
 #header{
     background: rgb(102,102,99);
 }
 
 footer{
     color: #848484;
+}
+
+.alt-link{
+    background color: black;
+    color: white;
 }
