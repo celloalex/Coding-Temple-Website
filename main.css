@@ -18,15 +18,13 @@ h2, h3, h4{
     text-transform: uppercase;
 }
 
-/*Changes all <nav> elements to allign text right*/
-nav{
-    text-align: right;
-}
-
 /*Change body elements style*/
 body{
-    background: white;
     color: black;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 /*Changes <p> elements to following color*/
@@ -71,5 +69,13 @@ header li:hover{
 /*Changes style for <a> elements insdie header*/
 header li a{
     color: black;
+}
+
+header h1{
+    color: #45a2da;
+}
+
+footer a{
+    color: white;
 }
 
