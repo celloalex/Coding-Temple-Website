@@ -16,6 +16,7 @@ h2, h3, h4{
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
+    color: white;
 }
 
 /*Change body elements style*/
@@ -79,3 +80,51 @@ footer a{
     color: white;
 }
 
+.one-third-left{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33%;
+}
+.one-third-right{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33%;
+    text-align: right;
+}
+
+.two-third-right{
+    float: right;
+    width: 60%;
+}
+
+.one-half-left{
+    float: left;
+    width: 49%;
+}
+
+.one-half-right{
+    float: right;
+    width: 49%;
+}
+
+footer>img{
+    width: 100%;
+}
+
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+#color-white{
+    color: white;
+}
+
+.middle-flex{
+    display: flex;
+    width: 33%;
+    text-align: center;
+}
