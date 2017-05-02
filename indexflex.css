@@ -1,10 +1,15 @@
 /*Centers all content such as head, footer, and all sections to center of page*/
 .container{
     display: flex;
-    width: 960px;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 75%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     margin: auto;
+}
+
+.header-list{
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /*all <a> elements in document will not have any text decorations*/
@@ -26,7 +31,8 @@ body{
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
 }
 
 /*Changes <p> elements to following color*/
@@ -50,6 +56,7 @@ footer{
 /*Changes the last <li> elements in the header*/
 .alt-link{
     background-color: black;
+
 }
 
 /*Changes <a> element in last list tag in header to white*/
@@ -93,9 +100,49 @@ footer a{
     width: 50%;
 }
 
-.container-one-half>img{
+*[class*='container-'] img{
     width: 100%;
 }
+
+.inline-links li{
+    display: inline;
+}
+
+footer li:hover{
+    box-shadow: 0px 3px 0px 0px #45a2da;
+    color: 45a2da;
+}
+
+.bodycolor{
+    background-color: #eee;
+    width: 75%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin: auto;
+}
+
+@media all and (max-width: 450px){
+    .container{
+    flex-direction: column;
+    width: 100%;
+
+    }
+
+    *[class*='container-one-half'] img{
+        display: none;
+    }
+    .container-one-half{
+    width: 100%;
+    }
+     *[class*='container-one-third'] img{
+        width: 75%;
+
+    }
+    .container-one-third{
+    width: 100%;
+}
+}
+
 
 
 
