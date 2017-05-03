@@ -1,15 +1,26 @@
 /*Centers all content such as head, footer, and all sections to center of page*/
 .container{
     display: flex;
-    width: 75%;
+    width: 60%;
     padding-left: 2.5%;
     padding-right: 2.5%;
     margin: auto;
 }
 
+.container-body{
+    display: flex;
+    width: 100%;
+}
+
 .header-list{
     font-size: 20px;
     font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+
+.header-color{
+    background-color: #eee;
 }
 
 /*all <a> elements in document will not have any text decorations*/
@@ -47,6 +58,7 @@ aside{
 
 /*Change style of footer*/
 footer{
+    width: 75%;
     background-color: black;
     border-top-style: solid;
     border-top: 1px rgba(0,0,0,0.085);
@@ -66,7 +78,7 @@ footer{
 
 /*Sets list elements in header to display inline*/
 header li{
-    display: inline;
+    display: inline-flex;
 }
 
 /*When list elements in header get hovered over by mouse they display styler*/
@@ -113,14 +125,21 @@ footer li:hover{
     color: 45a2da;
 }
 
+
+
 .bodycolor{
+    width: 60%;
     background-color: #eee;
-    width: 75%;
     padding-left: 2.5%;
     padding-right: 2.5%;
     margin: auto;
 }
 
+.container-one-third img{
+        width: 95%;
+}
+
+/*THIS IS IF THE THE WINDOW IS 450px OR SMALLER*/
 @media all and (max-width: 450px){
     .container{
     flex-direction: column;
@@ -130,10 +149,12 @@ footer li:hover{
 
     *[class*='container-one-half'] img{
         display: none;
+
     }
     .container-one-half{
     width: 100%;
     }
+
      *[class*='container-one-third'] img{
         width: 75%;
 
