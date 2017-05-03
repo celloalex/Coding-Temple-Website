@@ -144,24 +144,23 @@ footer li:hover{
     .container{
     flex-direction: column;
     width: 100%;
-
     }
 
     *[class*='container-one-half'] img{
         display: none;
-
     }
+
     .container-one-half{
     width: 100%;
     }
 
      *[class*='container-one-third'] img{
         width: 75%;
-
     }
+
     .container-one-third{
     width: 100%;
-}
+    }
 }
 
 
