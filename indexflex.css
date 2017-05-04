@@ -136,7 +136,43 @@ footer li:hover{
 }
 
 .container-one-third img{
-        width: 95%;
+    width: 95%;
+}
+
+.first-section{
+    opacity: 1.0;
+    margin-left: -2.5%;
+    animation:fadein 15s ease 0s infinite normal;
+}
+
+.second-section{
+    position: absolute;
+    width: 59.5%;
+    top: 11.5%;
+    margin-left: -2.5%;
+    opacity: 0.0;
+    animation:fadein 15s ease 5s infinite normal;
+}
+
+.third-section{
+    position: absolute;
+    width: 59%;
+    top: 11.5%;
+    left: 18%;
+    opacity: 0.0;
+    animation:fadein 15s ease 10s infinite normal;
+}
+
+@keyframes fadein{
+    17% {
+    opacity:1.0;
+    }
+    25%{
+    opacity: 0;
+    }
+    92%{
+    opacity:0;
+    }
 }
 
 /*THIS IS IF THE THE WINDOW IS 450px OR SMALLER*/
